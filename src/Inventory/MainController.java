@@ -23,9 +23,9 @@ import java.util.ResourceBundle;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 /**
- *  MainController is called by main and begins the app, buttons and inital user input will be handled by this class.
+ *  MainController is called by main and begins the app, buttons and inital user input will be handled by this class,
  *
- *  Run time errors when adding non integer values, fixed in the modifyPart, modifyProduct, addProducts methods
+ *  Run time errors when adding non integer values, fixed in the modifyPart (line 337), modifyProduct (line 400), addProducts methods (line 373)
  *
  * @author Tim McHale
  */
@@ -49,7 +49,7 @@ public class MainController implements Initializable {
 
     /**
      * Constructor for MainController, takes an Inventory object as input
-     * @param inv
+     * @param inv inventory object
      */
     public MainController(Inventory inv) {
         this.inv = inv;
@@ -93,7 +93,7 @@ public class MainController implements Initializable {
 
     /**
      * takes an integer as input writes and error pop-up to the UI per the code
-     * @param code
+     * @param code error code
      */
 
     private void errorWindow(int code) {
@@ -116,7 +116,7 @@ public class MainController implements Initializable {
 
     /**
      * method confirmationWindow takes a string and asks the user if they are sure they want to delete
-     * @param name
+     * @param name name of the part
      * @return bool true if deleted
      */
     private boolean confirmationWindow(String name) {

@@ -3,7 +3,7 @@ package Inventory;
 
 /**
  *
- *  InHouse extends Part where it will be given a machine id
+ *  InHouse extends Part where it will be given a machine id, part of the model
  *
  * @author Tim McHale
  *

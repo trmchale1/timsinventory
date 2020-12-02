@@ -144,7 +144,7 @@ public class Product {
 
     /**
      * deletes a part from the associated parts data structure
-     * @param selectedAssociatedPart
+     * @param selectedAssociatedPart a part
      * @return true if part is deleted
      */
     public boolean deleteAssociatedPart(Part selectedAssociatedPart) {

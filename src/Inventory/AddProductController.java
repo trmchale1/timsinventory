@@ -23,9 +23,9 @@ import java.util.ResourceBundle;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 /**
- * AddProductController allows you to add a Product in the UI and handles input.
+ * AddProductController allows you to add a Product in the UI and handles input,
  *
- * Run time errors when adding non integer values, fixed in the saveAddProduct method
+ * Run time errors when adding non integer values, fixed in the saveAddProduct method, lines 241
  *
  * @author Tim McHale
  */

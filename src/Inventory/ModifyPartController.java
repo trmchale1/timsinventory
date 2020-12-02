@@ -18,9 +18,9 @@ import java.util.ResourceBundle;
 
 /**
  *
- *  ModifyPartController allows you to modify a Part in the UI and handles input.
+ *  ModifyPartController allows you to modify a Part in the UI and handles input,
  *
- *  Run time errors when adding non integer values, fixed in the saveModifyPart method
+ *  Run time errors when adding non integer values, fixed in the saveModifyPart method (line 183)
  *
  * @author Tim McHale
  */
@@ -54,8 +54,8 @@ public class ModifyPartController implements Initializable {
 
     /**
      * Constructor takes model and specific part
-     * @param inv
-     * @param part
+     * @param inv object
+     * @param part object
      */
     public ModifyPartController(Inventory inv, Part part) {
         this.inv = inv;
@@ -316,7 +316,7 @@ public class ModifyPartController implements Initializable {
     /**
      * checks the value of price
      * @param field takes a TextField object
-     * @return
+     * @return boolean true if double
      */
     private boolean checkValue(TextField field) {
         boolean error = false;

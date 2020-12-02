@@ -75,7 +75,7 @@ public class Main extends Application {
 
     /**
      * Main starts program
-     * @param args
+     * @param args main argument, starts the app
      */
     public static void main(String[] args) {
         launch(args);

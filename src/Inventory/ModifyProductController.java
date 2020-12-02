@@ -23,7 +23,7 @@ import java.util.ResourceBundle;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 /**
- *  ModifyProductController allows you to modify a Product in the UI and handles input.
+ *  ModifyProductController allows you to modify a Product in the UI and handles input,
  *
  *  Run time errors when adding non integer values, fixed in the saveProduct method
  *
@@ -383,8 +383,8 @@ public class ModifyProductController implements Initializable {
 
     /**
      * checks the type of price to be sure it is a double
-     * @param field
-     * @return
+     * @param field TextField
+     * @return bool true if price is double
      */
     private boolean checkType(TextField field) {
 
@@ -402,7 +402,7 @@ public class ModifyProductController implements Initializable {
 
     /**
     * formats the price into a double
-     * @return table column
+     * @return TableColumn table column
      */
     private <T> TableColumn<T, Double> formatPrice() {
         TableColumn<T, Double> costCol = new TableColumn("Price");

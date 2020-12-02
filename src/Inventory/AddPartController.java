@@ -19,9 +19,9 @@ import java.util.Random;
 import java.util.ResourceBundle;
 
 /**
- *  AddPartController allows you to add a Part in the UI and handles input.
+ *  AddPartController allows you to add a Part in the UI and handles input,
  *
- *  Run time errors when adding non integer values, fixed in the saveAddPart method
+ *  Run time errors when adding non integer values, fixed in the saveAddPart method, line 185.
  *
  *  @author Tim McHale
  */

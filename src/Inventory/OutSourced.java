@@ -12,13 +12,13 @@ public class OutSourced extends Part {
 
     /**
      * Constructor for Outsourced
-     * @param id
-     * @param name
-     * @param price
-     * @param stock
-     * @param min
-     * @param max
-     * @param companyName
+     * @param id int
+     * @param name string
+     * @param price double
+     * @param stock int
+     * @param min int
+     * @param max int
+     * @param companyName company name of the part for outsourced
      */
     public OutSourced(int id, String name, double price, int stock, int min, int max, String companyName) {
         super(id,name,price,stock,min,max);
